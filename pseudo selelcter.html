@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>psudo class selecter</title>
+	<style type="text/css">
+	header li {
+		list-style: none;
+	}
+    a:link , a:visited 
+    {
+    	text-decoration: none;
+    	background-color: green;
+    	border: 1px solid red;
+    	color: black;
+    	display: block;
+    	margin: 1px;
+    	width: 200px;
+    	text-align: center;
+    }
+
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+
+}
+header li:nth-child(2){
+	font-size: 24px;
+	font-style: italic;
+
+}
+section div:nth-child(4){
+	font-size: 20px;
+}
+    
+</style>
+</head>
+<body>
+<h1> psudo class selector</h1>
+<header>
+	<ul>
+		<li> <a href="/"> Home </a></li>
+		<li><a href="www.google.com/" target="_blank"  > vist the google website</a></li>
+	
+	</ul>
+</header>
+
+
+<section>
+	<div> DIV 1</div>
+	<div> DIV 2</div>
+	<div> DIV 3</div>
+	<div> DIV 4</div>
+	<div> DIV 5</div>
+	<div> DIV 6</div>
+	<div> DIV 7</div>
+	<div> DIV 8</div>
+</section>
+</body>
+</html>
