@@ -1,11 +1,17 @@
 h1{
 	display: block;
 	text-align: center;
+	color: lightyellow;
+
 }
 p{
 	padding-left:  10px;
 	padding-right: 10px;
 
+}
+body{
+	background-color: #6f4e37;
+     color:lightyellow; 
 }
 .maincontainer{
 	display: flex;
@@ -65,10 +71,16 @@ p{
 }
 #Chicken{
 	background-color: orange;
+	color: #413d3b;
+
 }
 #Beef{
 	background-color: green;
+	color: #413d3b;
+
 }
 #Sushi{
 	background-color: pink;
+	color: #413d3b;
+
 }
