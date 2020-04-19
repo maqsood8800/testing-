@@ -101,15 +101,15 @@
 
 @media (max-width: 479px) {
     .my-row {
-        width: 400px;
-        height: 600px;
+        width: 320px;
+        height: 800px;
         margin-top: 10px;
         margin-right: px;
         margin-left: 3px;
     }
     .my-ro {
-        width: 400px;
-        height: 600px;
+        width: 320px;
+        height: 800px;
         margin-top: 10px;
         margin-left: 3px;
         margin-bottom: 20px;
