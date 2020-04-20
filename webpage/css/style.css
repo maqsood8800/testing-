@@ -1,0 +1,446 @@
+body {
+    font-size: 16px;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-top: 16px;
+}
+
+.navbar-brand p span {
+    /* Star-K */
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+#nav-list {
+    padding-top: 25px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 14px;
+}
+
+#phone a {
+    text-align: right;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+#phone div {
+    text-align: right;
+    color: green;
+    padding-right: 15px;
+}
+
+button.navbar-toggle,
+.icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 10px;
+}
+
+
+/*-----------End of Header--------*/
+
+
+/* Menu catagories */
+
+.catagory-tile {
+    border: 1px solid #fff;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto 15px;
+}
+
+.catagory-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    opacity: .7;
+}
+
+.catagory-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-catagory-title+div {
+    color: whitesmoke;
+    padding-bottom: 40px;
+}
+
+
+/*menu catagory ends****/
+
+
+/* single catagory menu */
+
+.menu-item-tile {
+    margin-bottom: 20px;
+}
+
+.menu-item-tile hr {
+    width: 80%;
+}
+
+.menu-item-tile .item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-right: -15px;
+    margin-top: -15px;
+    color: lightgrey;
+}
+
+.menu-item-tile .item-price span {
+    font-size: .6em;
+}
+
+.item-photo {
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.item-photo div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    text-align: center;
+    background-color: teal;
+}
+
+.item-description {
+    color: lightgray;
+    padding-right: 30px;
+}
+
+h3.item-title {
+    color: teal;
+    margin-top: 10px;
+}
+
+.item-detail {
+    font-size: .7em;
+    font-style: italic;
+}
+
+
+/*.item-price {
+    color: lightgrey;
+}
+
+
+/**************bottom 3 rows menu specials map******/
+
+#menu-tile,
+#special-tile,
+#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #000000;
+    overflow: hidden;
+}
+
+
+/*-----bottom tiles aligment and colors--*/
+
+#menu-tile span,
+#special-tile span,
+#map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+}
+
+
+/*--------hover on text in tiles like menu specials-------*/
+
+#menu-tile span:hover,
+#special-tile span:hover,
+#map-tile span:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+/******************MEDIA QURIES**************/
+
+
+/******************FOR LONG DEVIVES**************/
+
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+
+/******************for medium devices**************/
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    #logo {
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    .container .jumbotron {
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 560px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+
+/******************for small devices**************/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+        background: url('../images/jumbotron_768.jpg') no-repeat;
+        height: 433px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+
+/******************for extrra small devices**************/
+
+@media(max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 70px;
+    }
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p {
+        text-transform: uppercase;
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img {
+        height: 20px;
+    }
+    #collapsable-nav a {
+        font-variant: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn>a {
+        background-color: #f6b319;
+        border: 2px solid #fff;
+        display: block;
+        color: #951c49;
+        font-size: 1.5em;
+        margin: 0 20px;
+        padding: 10px;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        text-transform: uppercase;
+        font-size: .7em;
+        letter-spacing: 1em;
+        color: #fff;
+    }
+    .container .jumbotron {
+        margin-top: 20px;
+        padding: 0px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+    #menu-tile,
+    #special-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+    .footer section {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer section hr {
+        width: 50%;
+    }
+    .item-photo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-item-tile .item-price {
+        text-align: center;
+        margin-right: auto;
+    }
+}
+
+
+/*=========Extra Extea small devices like iphone 4======*/
+
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 7vw;
+    }
+    #menu-tile,
+    #special-tile {
+        width: 290px;
+        margin: 0px auto 15px;
+    }
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/*************header End**********/
+
+
+/* menu special and map tile container hover*/
+
+#menu-tile:hover,
+#special-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+    background: url('../images/menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#special-tile {
+    background: url('../images/specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+
+/*================footer start=======*/
+
+.footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 0px;
+}
+
+.footer div.row {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#hours,
+#Address {
+    color: #fff;
+    line-height: 2;
+}
+
+#hours span,
+#Address span {
+    font-size: 1.4em;
+}
+
+#Address p {
+    color: green;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+#Discription {
+    color: #fff;
+    font-style: italic;
+    padding-right: 30px;
+}
+
+
+/* copy rght div */
+
+.text-center {
+    color: firebrick;
+}
